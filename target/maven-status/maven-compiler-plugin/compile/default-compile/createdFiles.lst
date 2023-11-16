@@ -1,5 +1,5 @@
-midspractice\EventSystem.class
-midspractice\Attendee.class
-midspractice\Artist.class
-midspractice\Festival.class
-midspractice\Stage.class
+eventManSys\Artist.class
+eventManSys\Attendee.class
+eventManSys\Stage.class
+eventManSys\EventSystem.class
+eventManSys\Festival.class

@@ -1,4 +1,4 @@
-package midspractice;
+package eventManSys;
 
 public class Artist {
 

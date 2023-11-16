@@ -1,4 +1,4 @@
-package midspractice;
+package eventManSys;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,7 +50,7 @@ public class Festival {
 
             for (Artist artist : artistList) {
                 if (artist.getStage() == stage) {
-                    System.out.println("Artist: " + artist.getArtistName() + "\nGenre: " + artist.getGenre() + "\nAlbum:  " + artist.getAlbum());
+                    System.out.println("Artist: " + artist.getArtistName() + "\nGenre: " + artist.getGenre() + "\nAlbum: " + artist.getAlbum());
                 }
             }
         }

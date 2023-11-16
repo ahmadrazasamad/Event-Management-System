@@ -1,10 +1,9 @@
-package midspractice;
+package eventManSys;
 
 public class EventSystem {
 
     public static void main(String[] args) {
         Festival festival = new Festival("Coachella Music Festival", "2nd Nov, 2023");
-        festival.generateSchedule();
 
         Stage stage = new Stage("Sahara Tent", "Coachella Valley", 420);
 
@@ -14,6 +13,8 @@ public class EventSystem {
         festival.addArtist(artist);
         festival.addStage(stage);
         
+        festival.generateSchedule();
+
         Attendee attendee1 = new Attendee("Me", "me@eamail.com", "Regular");
         Attendee attendee2 = new Attendee("My friend", "friend@gmail.com", "VIP");
         

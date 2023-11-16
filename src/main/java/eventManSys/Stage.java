@@ -1,4 +1,4 @@
-package midspractice;
+package eventManSys;
 
 public class Stage {
     private String stageName, location;
